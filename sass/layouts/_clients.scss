@@ -1,0 +1,59 @@
+.client {
+    padding: 94px 0;
+}
+.client-title {
+    @include font (700, 36, 1.67, 0.03);
+    font-family: 'Roboto';
+    font-style: normal;
+    // font-weight: 700;
+    // font-size: 36px;
+    // line-height: 1.67;
+    // letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.client-list {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.client-link {
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--border-basic-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    transition-property: border-color;
+    &:hover,
+        &:focus {
+            border: 1px solid var(--third-color);
+        }
+        &:hover .client1,
+        &:focus .client1,
+        &:hover .client2,
+        &:focus .client2,
+        &:hover .client3,
+        &:focus .client3,
+        &:hover .client4,
+        &:focus .client4,
+        &:hover .client5,
+        &:focus .client5,
+        &:hover .client6,
+        &:focus .client6 {
+    fill: var(--third-color);
+}
+}
+.client-item {
+    .client1,
+    .client2,
+    .client3,
+    .client4,
+    .client5,
+    .client6 {
+    fill: var(--border-basic-color);
+    transition-property: fill;
+}
+}
