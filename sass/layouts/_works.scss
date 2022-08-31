@@ -1,7 +1,7 @@
-.section-work {
+.work {
     padding-bottom: 94px;
 }
-.work-title {
+.work__title {
     @include font (700, 36, 1.16, 0.03);
     // font-weight: 700;
     // font-size: 36px;
@@ -11,17 +11,17 @@
     margin-bottom: 50px;
     text-align: center;
 }
-.work-list {
+.work__list {
     list-style: none;
     display: flex;
     gap: 30px;
     align-items: center;
 }
-.work-item {
+.work__item {
     align-items: center;
     position: relative;
 }
-.work-backdrop {
+.work__backdrop {
     background-color: rgba(47, 48, 58, 0.8);
     width: 370px;
     height: 70px;
@@ -31,7 +31,7 @@
     justify-content: center;
     align-items: center;
 }
-.work-backdrop-article {
+.work__article {
     @include font (700, 14, 1.14, 0.03);
     // font-weight: 700;
     // font-size: 14px;

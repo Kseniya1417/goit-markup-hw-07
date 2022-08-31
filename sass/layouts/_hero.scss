@@ -1,7 +1,4 @@
 .hero {
-    text-align: center;
-}
-.hero-content {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -11,8 +8,8 @@
     padding: 200px 0;
     margin: 0 auto;
 }
-.hero-title {
-    // @include font (900, 44, 1.36, 0.06);
+.hero__title {
+    @include font (900, 44, 1.36, 0.06);
     // font-weight: 900;
     // font-size: 44px;
     // line-height: 1.36;
@@ -20,8 +17,12 @@
     margin-bottom: 30px;
     text-transform: uppercase;
     color: var(--main-text-color);
+    width: 696px;
+    margin: auto;
+    padding: auto;
+        
 }
-.hero-btn {
+.hero__btn {
     @include font (700, 16, 1.87, 0.06);
     // font-weight: 700;
     // font-size: 16px;
@@ -42,11 +43,6 @@
         color: var(--main-btn-text-color);
     }
 }
-.hero-btn-center {
+.hero__pozition-center {
     text-align: center;
-}
-.hero-title {
-    width: 696px;
-    margin: auto;
-    padding: auto;
 }

@@ -1,7 +1,8 @@
 .navigation {
     display: flex;
 }
-.navigation .header__logo {
+
+.navigation .navigation__logo {
     @include font (700, 26, 1.19, 0.03);
     font-family: 'Raleway', sans-serif;
     // font-weight: 700;
@@ -13,7 +14,7 @@
     padding: 24px 0;
     align-items: center;
 }
-.header__logo {
+.navigation__logo {
     display: inline-block;
 }
 .navigation .span__logo {
@@ -25,7 +26,7 @@
     // letter-spacing: 0.03em;
     color: var(--logo-color);
 }
-.header__link {
+.navigation__link {
     @include font (500, 14, 1.14, 0.02);
     // font-weight: 500;
     // font-size: 14px;
@@ -36,14 +37,14 @@
     padding: 32px 0;
     transition-property: color;
 }
- .header__list {
+ .navigation__list {
      gap: 50px;
      display: flex;
      margin-left: 93px;
  }
- .header__link:hover,
+ .navigation__link:hover,
  .current-page,
- .header__link:focus {
+ .navigation__link:focus {
      color: var(--third-color);
  }
   .active::after {
@@ -59,11 +60,14 @@
 .active {
        position: relative;
 }
-.icon-envelope {
+.contacts__icon-envelope {
      margin-right: 10px;
      fill: currentColor;
 }
-.icon-telephone {
+.contacts__icon-telephone {
      margin-right: 10px;
      fill: currentColor;
+}
+.contacts__list{
+    padding: 32px 0;
 }

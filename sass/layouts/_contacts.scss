@@ -1,32 +1,27 @@
-.contacts-list {
+.contacts__list {
     display: flex;
     gap: 50px;
     margin-right: 0;
     align-items: center;
 }
-.contacts-tel,
-.contacts-post {
+.contacts__tel,
+.contacts__post {
     display: flex;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    // padding: 32px 0;
     color: var(--second-color);
     align-items: center;
     transition-property: color;
 }
-.nav-contacts-post,
-.nav-contacts-tel {
-    display: flex;
-    padding: 32px 0;
-    align-items: center;
-}
-.contacts-post:hover,
-.contacts-post:focus,
-.contacts-tel:hover,
-.contacts-tel:focus {
+.contacts__post:hover,
+.contacts__post:focus,
+.contacts__tel:hover,
+.contacts__tel:focus {
     color: var(--third-color);
 }
-.contacts-post::before {
-    background-image: url("../images/envelop.svg");
-    background-size: 20px;
-}
+// .contacts__post::before {
+//     background-image: url("../images/envelop.svg");
+//     background-size: 20px;
+// }
