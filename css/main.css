@@ -555,7 +555,7 @@ img {
   transform: translate(-50%, -50%) scale(0);
 }
 
-.modal-close {
+.form__btn-close {
   position: absolute;
   width: 30px;
   height: 30px;
@@ -565,25 +565,25 @@ img {
   right: 8px;
   top: 8px;
 }
-.modal-close:hover, .modal-close:focus {
+.form__btn-close:hover, .form__btn-close:focus {
   fill: var(--third-color);
   border-color: var(--third-color);
 }
 
-.modal-checkbox {
+.agreement__checkbox {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   position: absolute;
 }
 
-.close-btn {
+.form__btn-svg {
   position: absolute;
   top: 5px;
   right: 5px;
 }
 
-.modal-title {
+.form__title {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
@@ -593,7 +593,7 @@ img {
   margin-bottom: 12px;
 }
 
-.modal-input {
+.field__input {
   width: 100%;
   height: 40px;
   border: 1px solid var(--modal-border-color);
@@ -603,38 +603,38 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-input:hover, .modal-input:focus {
+.field__input:hover, .field__input:focus {
   border: 1px solid var(--third-color);
   border-radius: 4px;
   transition-property: border-color;
 }
-.modal-input::-moz-placeholder {
+.field__input::-moz-placeholder {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
   color: var(--modal-input-color);
 }
-.modal-input:-ms-input-placeholder {
+.field__input:-ms-input-placeholder {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
   color: var(--modal-input-color);
 }
-.modal-input::placeholder {
+.field__input::placeholder {
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
   color: var(--modal-input-color);
 }
-.modal-input:hover + .icon-person-black, .modal-input:focus + .icon-person-black, .modal-input:hover + .icon-phone-black, .modal-input:focus + .icon-phone-black, .modal-input:hover + .icon-email-black, .modal-input:focus + .icon-email-black {
+.field__input:hover + .field__name, .field__input:focus + .field__name, .field__input:hover + .field__phone, .field__input:focus + .field__phone, .field__input:hover + .field__email, .field__input:focus + .field__email {
   fill: var(--third-color);
   transition-property: fill;
 }
 
-.modal-label {
+.field__label {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.66;
@@ -663,7 +663,7 @@ img {
   justify-content: center;
 }
 
-.modal-link {
+.agreement__link {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -673,7 +673,7 @@ img {
   color: var(--third-color);
 }
 
-.modal-btn {
+.form__send {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -693,7 +693,7 @@ img {
   margin-top: 30px;
 }
 
-.user-agreement {
+.agreement {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -710,7 +710,7 @@ img {
   justify-content: center;
 }
 
-.checkbox-icon {
+.agreement__icon {
   display: inline-block;
   width: 16px;
   height: 15px;
@@ -719,7 +719,7 @@ img {
   border: 2px solid var(--first-color);
   border-radius: 2px;
 }
-.modal-checkbox:checked + .checkbox-icon {
+.agreement__checkbox:checked + .agreement__icon {
   background-image: url("../images/vector.svg");
   background-color: var(--third-color);
   background-size: contain;
@@ -731,7 +731,7 @@ img {
   fill: transparent;
 }
 
-.modal-text {
+.modal__text {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
@@ -747,9 +747,9 @@ img {
   margin-bottom: 20px;
 }
 
-.icon-person-black,
-.icon-phone-black,
-.icon-email-black {
+.field__name,
+.field__phone,
+.field__email {
   position: absolute;
   top: 50%;
   left: 12px;
@@ -757,7 +757,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-field {
+.field {
   position: relative;
   margin-bottom: 10px;
 }

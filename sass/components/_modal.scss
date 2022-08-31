@@ -21,7 +21,7 @@
             transform: translate(-50%, -50%) scale(0);
         }
 }
-.modal-close {
+.form__btn-close {
     position: absolute;
     width: 30px;
     height: 30px;
@@ -36,18 +36,18 @@
             border-color: var(--third-color);
                   }
 }
-.modal-checkbox {
+.agreement__checkbox {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     position: absolute;
 }
-.close-btn {
+.form__btn-svg {
     position: absolute;
     top: 5px;
     right: 5px;
 }
-.modal-title {
+.form__title {
     @include font (700, 20, 1.15, 0.03);
     // font-weight: 700;
     // font-size: 20px;
@@ -57,7 +57,7 @@
     color: var(--first-color);
     margin-bottom: 12px;
 }
-.modal-input {
+.field__input {
     width: 100%;
     height: 40px;
     border: 1px solid var(--modal-border-color);
@@ -79,17 +79,17 @@
             letter-spacing: 0.01em;
             color: var(--modal-input-color);
         }
-                &:hover+.icon-person-black,
-                &:focus+.icon-person-black,
-                &:hover+.icon-phone-black,
-                &:focus+.icon-phone-black,
-                &:hover+.icon-email-black,
-                &:focus+.icon-email-black {
+                &:hover+.field__name,
+                &:focus+.field__name,
+                &:hover+.field__phone,
+                &:focus+.field__phone,
+                &:hover+.field__email,
+                &:focus+.field__email {
                     fill: var(--third-color);
                     transition-property: fill;
                 }
 }
-.modal-label {
+.field__label {
     @include font (400, 12, 1.66, 0.01);
     // font-weight: 400;
     // font-size: 12px;
@@ -118,7 +118,7 @@
     justify-content: center;
 }
 }
-.modal-link {
+.agreement__link {
     @include font (400, 14, 1.71, 0.03);
     // font-weight: 400;
     // font-size: 14px;
@@ -127,7 +127,7 @@
     text-decoration-line: underline;
     color: var(--third-color);
 }
-.modal-btn {
+.form__send {
     @include font (700, 16, 1.88, 0.06);
     // font-weight: 700;
     // font-size: 16px;
@@ -149,7 +149,7 @@
     margin-top: 30px;
    
 }
-.user-agreement {
+.agreement {
     @include font (400, 14, 1.71, 0.03);
     position: relative;
     text-align: center;
@@ -165,7 +165,7 @@
     align-items: center;
     justify-content: center;
 }
-.checkbox-icon {
+.agreement__icon {
     display: inline-block;
     width: 16px;
     height: 15px;
@@ -173,7 +173,7 @@
     background: var(--header-background-color);
     border: 2px solid var(--first-color);
     border-radius: 2px;
-    .modal-checkbox:checked+& {
+    .agreement__checkbox:checked+& {
             background-image: url('../images/vector.svg');
             background-color: var(--third-color);
             background-size: contain;
@@ -185,7 +185,7 @@
 .icon-vector {
     fill: transparent;
 }
-.modal-text {
+.modal__text {
     @include font (400, 12, 1.17, 0.01);
     width: 100%;
     height: 120px;
@@ -201,16 +201,16 @@
     display: block;
     margin-bottom: 20px;
 }
-.icon-person-black,
-.icon-phone-black,
-.icon-email-black {
+.field__name,
+.field__phone,
+.field__email {
     position: absolute;
     top: 50%;
     left: 12px;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-field {
+.field {
     position: relative;
     margin-bottom: 10px;
 }
