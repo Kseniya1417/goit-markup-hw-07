@@ -17,6 +17,15 @@
         background-color: var(--third-color);
         fill: var(--header-background-color);
     }}
+.social__icon-svg {
+        fill: var(--border-basic-color) ;
+        transition-property: fill;
+  
+           .social__link:hover &,
+           .social__link:focus & {
+               fill: var(--header-background-color);
+           }
+    }
 .footer-add__link {
     width: 44px;
     height: 44px;
@@ -38,11 +47,6 @@
 
     .footer-add__link:hover &,
     .footer-add__link:focus & {
-        fill: var(--header-background-color);
-    }
-
-    .social__link:hover &,
-    .social__link:focus & {
         fill: var(--header-background-color);
     }
 }
