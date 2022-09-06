@@ -4,10 +4,6 @@
 .footer-form {
     display: flex;
 }
-// .footer-input-btn {
-//     display: flex;
-//     gap: 15px;
-// }
 .form-submit__input {
     @include font (400, 16, 1.25, 0.03);
     box-sizing: border-box;
@@ -18,11 +14,7 @@
     border-radius: 4px;
     padding-left: 16px;
     background-color: transparent;
-    // font-weight: 400;
-    // font-size: 16px;
-    // line-height: 1.25;
-    // letter-spacing: 0.03em;
-    display: flex;
+     display: flex;
     align-items: center;
    
     color: var(--footer-link-color);
@@ -34,10 +26,6 @@
     background: var(--third-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    // font-weight: 700;
-    // font-size: 16px;
-    // line-height: 1.87;
-    // letter-spacing: 0.06em;
     display: flex;
     align-items: center;
     text-align: center;
@@ -50,10 +38,4 @@
 .form-submit__svg {
     margin-left: 10px;
 }
-// .button-sign {
-//     align-items: center;
-// }
-// .footer-input-btn {
-//     display: flex;
-//     gap: 15px;
-// }
+

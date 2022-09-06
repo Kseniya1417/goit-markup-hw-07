@@ -1,0 +1,22 @@
+.navigation .navigation__logo {
+    @include font (700, 26, 1.19, 0.03);
+    font-family: 'Raleway', sans-serif;
+    color: var(--third-color);
+    align-self: center;
+    padding: 24px 0;
+    align-items: center;
+}
+
+.navigation__logo {
+    display: inline-block;
+}
+.footer__logo {
+    @include font (700, 26, 1.19, 0.03);
+    font-family: 'Raleway', sans-serif;
+    color: var(--third-color);
+}
+
+.footer__logo-span {
+    @include font (700, 26, 1.19, 0.03);
+    color: var(--main-text-color);
+}

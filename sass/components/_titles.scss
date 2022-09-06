@@ -1,0 +1,39 @@
+.features__title {
+    @include font (700, 14, 1.14, 0.03);
+    text-transform: uppercase;
+    color: var(--first-color);
+    margin-bottom: 10px;
+}
+.hero__title {
+    @include font (900, 44, 1.36, 0.06);
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: var(--main-text-color);
+    width: 696px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.section-title {
+    @include font (700, 18, 2.0, 0.06);
+    color: var(--first-color);
+}
+.team__title {
+    @include font (700, 36, 1.16, 0.03);
+    text-align: center;
+    color: var(--first-color);
+    margin-bottom: 50px;
+}
+.work__title {
+    @include font (700, 36, 1.16, 0.03);
+    color: var(--first-color);
+    margin-bottom: 50px;
+    text-align: center;
+}
+.footer-add__title {
+    @include font (700, 14, 1.14, 0.03);
+    font-family: 'Roboto';
+    font-style: normal;
+    text-transform: uppercase;
+    color: var(--main-text-color);
+    margin-bottom: 20px;
+}

@@ -13,7 +13,6 @@
     border: 0px;
     color: var(--main-btn-text-color);
     background-color: var(--main-btn-background-color);
-
     &:hover,
     &:focus {
         background-color: var(--studio-hover-color);
@@ -35,4 +34,20 @@
     margin-left: 12px;
     border: solid var(--third-color);
     justify-content: center;
+}
+.form__btn-close {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #999999;
+    border-radius: 50%;
+    background-color: transparent;
+    right: 8px;
+    top: 8px;
+
+    &:hover,
+    &:focus {
+        fill: var(--third-color);
+        border-color: var(--third-color);
+    }
 }

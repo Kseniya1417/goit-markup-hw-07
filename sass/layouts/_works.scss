@@ -1,16 +1,6 @@
 .work {
     padding-bottom: 94px;
 }
-.work__title {
-    @include font (700, 36, 1.16, 0.03);
-    // font-weight: 700;
-    // font-size: 36px;
-    // line-height: 1.16;
-    // letter-spacing: 0.03em;
-    color: var(--first-color);
-    margin-bottom: 50px;
-    text-align: center;
-}
 .work__list {
     list-style: none;
     display: flex;
@@ -33,11 +23,7 @@
 }
 .work__article {
     @include font (700, 14, 1.14, 0.03);
-    // font-weight: 700;
-    // font-size: 14px;
-    // line-height: 1.14;
-    // letter-spacing: 0.03em;
-    text-align: center;
+      text-align: center;
     text-transform: uppercase;
     color: var(--main-text-color);
 }

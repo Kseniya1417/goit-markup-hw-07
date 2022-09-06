@@ -95,10 +95,6 @@
     border: 1px solid var(--section-team-baskground-color);
     border-top: 0;
 }
-.section-title {
-    @include font (700, 18, 2.0, 0.06);
-     color: var(--first-color);
-}
 .section-text {
     line-height: 1.88;
     letter-spacing: 0.03em;

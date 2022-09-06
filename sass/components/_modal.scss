@@ -21,21 +21,6 @@
             transform: translate(-50%, -50%) scale(0);
         }
 }
-.form__btn-close {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    border: 1px solid #999999;
-    border-radius: 50%;
-    background-color: transparent;
-    right: 8px;
-    top: 8px;
-    &:hover,
-        &:focus {
-            fill: var(--third-color);
-            border-color: var(--third-color);
-                  }
-}
 .agreement__checkbox {
     -webkit-appearance: none;
     -moz-appearance: none;

@@ -6,15 +6,6 @@
             align-items: baseline;
         }
 }
-.footer__logo {
-    @include font (700, 26, 1.19, 0.03);
-    font-family: 'Raleway', sans-serif;
-    color: var(--third-color);
-}
-.footer__logo-span {
-    @include font (700, 26, 1.19, 0.03);
-      color: var(--main-text-color);
-}
 .footer__address {
     font-style: normal;
     margin-top: 20px;
@@ -45,14 +36,6 @@
     letter-spacing: 0.03em;
     color: var(--footer-link-color);
     transition-property: color;
-}
-.footer-add__title {
-    @include font (700, 14, 1.14, 0.03);
-    font-family: 'Roboto';
-    font-style: normal;
-    text-transform: uppercase;
-    color: var(--main-text-color);
-    margin-bottom: 20px;
 }
 .footer-add {
   margin-left: 70px;  
